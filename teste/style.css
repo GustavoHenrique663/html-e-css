@@ -1,0 +1,98 @@
+body{
+    background:rgb(255, 146, 179);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    background:white;
+    border: solid black;
+    border-radius: 20px;
+
+}
+#azul{
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    background:rgb(64, 151, 223);
+    width:25%;
+    height:500px;
+    transition: 0.3s;
+    text-align: center;
+     background-image: url(squirtle.png);
+    background-size: cover;
+}
+#amarelo{
+    text-transform: uppercase;
+    color:rgb(92, 86, 1);
+    display:inline-block;
+    background: yellow;
+    background-image:url(pikachu.png);
+    background-position: center;
+    background-size: cover;
+    width:25%;
+    height: 500px;
+    transition: 0.3s;
+    text-align: center;
+   
+}
+#vermelho{
+    display:inline-block;
+    background:red;
+     width:25%;
+    height:150px;
+    transition:0.3s;
+    text-align: center;
+    background-image: url(charizard.png);
+    background-size: cover;
+    height: 500px;
+    
+}
+
+#azul:hover{
+    display: inline-block;
+    background:rgb(0, 111, 202);
+    width:25%;
+    height:150px;
+    padding:10px;
+    height: 500px;
+    background-image: url(squirtle\ 2\ final.png);
+    background-size: cover;
+    animation: lightning 0.3s;
+    opacity: 1;
+    
+    
+}
+#amarelo:hover{
+    display:inline-block;
+    background: rgb(228, 207, 18);
+    width:25%;
+    height:500px;
+    padding: 10px;
+    background-image: url(pikachu\ atacando.png);
+    background-size: cover;
+    animation: lightning 0.3s;
+    opacity: 1;
+    
+}
+
+@keyframes lightning{
+    0% {opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
+
+#vermelho:hover{
+    display:inline-block;
+    background:rgb(201, 25, 2);
+     width:25%;
+    height:500px;
+    padding:10px;
+    background-image: url(charizard\ 2.png);
+    background-size: cover;
+    animation: lightning 0.3s;
+    opacity: 1;
+}
+
+
+
+
